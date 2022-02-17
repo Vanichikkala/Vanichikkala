@@ -1,0 +1,13 @@
+a=-1
+b=1
+n=int(input('enter n value:'))
+sum=0
+for i in range(1,n+1):
+    c=a+b
+    sum=sum+c
+    a=
+    b=c
+print(sum)
+enter n value:12
+232
+> 
