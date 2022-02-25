@@ -1,0 +1,23 @@
+numlist=[]
+positive=[]
+negative=[]
+number=int(input())
+for i in range(1,number+1):
+    value=int(input())
+    numlist.append(value)
+for j in range(number):
+    if(numlist[j]>=0):
+        positive.append(numlist[j])
+    else:
+        negative.append(numlist[j])
+print('element in positive list is:',positive)
+print('element in negative list is:',negative)
+5
+2
+3
+0
+-2
+1
+element in positive list is: [2, 3, 0, 1]
+element in negative list is: [-2]
+> 
