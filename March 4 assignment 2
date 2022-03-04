@@ -1,0 +1,15 @@
+n=int(input())
+l=input().split()
+x=[]
+for i in l:
+    x.append(int(i))
+t=[]
+for j in x:
+    if j not in t:
+        t.append(j)
+t.sort()
+print(t[-3])
+6
+7 8 2 8 9 4
+7
+> 
